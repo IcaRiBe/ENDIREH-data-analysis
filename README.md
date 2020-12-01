@@ -10,6 +10,10 @@ La alta recurrencia en crímenes relacionados a este tipo de violencia en Méxic
 
 El INEGI contribuye al desarrollo de investigaciones y diseño de políticas públicas orientadas a atender y erradicar la violencia contra la mujer, por medio de La Encuesta Nacional sobre la Dinámica de las Relaciones en los Hogares (ENDIREH). Obtienen estimaciones estadísticas que detallan los actos violentos experimentados con mayor frecuencia por las mujeres, en los ámbitos escolar, laboral, familiar y comunitario, los sujetos que ejercen dicha violencia, el espacio físico en donde lo realizan, las relaciones de pareja, las acciones violentas experimentadas a lo largo de estas y la denuncia de estos actos ante las instituciones correspondientes (INEGI, 2016).
 
+## Datos
+
+Los datos utilizados son los [datos abiertos](https://www.inegi.org.mx/programas/endireh/2016/#Datos_abiertos) disponibles en la página oficial de la ENDIREH 2016 consultados el día 10 de noviembre del 2020.
+
 ## Licencia
 
 This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.
