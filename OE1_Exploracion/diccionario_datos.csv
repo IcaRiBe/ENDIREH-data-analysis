@@ -1,0 +1,278 @@
+NOMBRE_CAMPO,NEMONICO,TIPO,LONGITUD,RANGO_CLAVES,DESCRIP
+Identificador de vivienda seleccionada,id_viv,Carácter,10,"0100001.01, …, 3299999.99",Clave de identificación de la vivienda
+Vivienda seleccionada,viv_sel,Carácter,2,"01, …, 99",Número de vivienda seleccionada
+Clave Entidad,cve_ent,Carácter,2,"01, …, 32",Clave de la entidad
+Clave Municipio,cve_mun,Carácter,3,"001, …, 570",Clave del municipio
+Region económica de Mexico,region,Numérico,1,7,Península de Yucatán
+Region económica de Mexico,region,Numérico,1,6,Pacífico Sur
+Region económica de Mexico,region,Numérico,1,5,Golfo de México
+Region económica de Mexico,region,Numérico,1,4,Centro Sur
+Region económica de Mexico,region,Numérico,1,3,Centro Occidente
+Region económica de Mexico,region,Numérico,1,2,Noreste
+Region económica de Mexico,region,Numérico,1,1,Norte
+Region económica de Mexico,region,Numérico,1,0,Noroeste
+Parentesco,paren,Numérico,1,3,Hijo(a)
+Parentesco,paren,Numérico,1,4,Nieto(a)
+Parentesco,paren,Numérico,1,5,Yerno o nuera
+Parentesco,paren,Numérico,1,6,Hermano(a)
+Parentesco,paren,Numérico,1,7,Otros parientes
+Parentesco,paren,Numérico,1,8,No parientes
+Parentesco,paren,Numérico,1,9,Empleado(a) doméstico(a)
+Parentesco,paren,Numérico,1,1,Jefe(a)
+Parentesco,paren,Numérico,1,2,Esposo(a) o compañero(a)
+Sexo,sexo,Numérico,1,2,Mujer
+Sexo,sexo,Numérico,1,1,Hombre
+Edad,edad,Carácter,2,99,Edad no especificada
+Edad,edad,Carácter,2,98,Edad no especificada en personas de 15 años o más
+Edad,edad,Carácter,2,97,97 o más años
+Edad,edad,Carácter,2,"01, … ,96",Años
+Edad,edad,Carácter,2,0,Menos de un año
+Nivel,niv,Numérico,2,99,No especificado
+Nivel,niv,Numérico,2,11,"Posgrado (Especialidad, Maestría o Doctorado)"
+Nivel,niv,Numérico,2,10,Licenciatura o profesional
+Nivel,niv,Numérico,2,9,Normal licenciatura
+Nivel,niv,Numérico,2,4,Preparatoria o bachillerato
+Nivel,niv,Numérico,2,5,Estudios técnicos o comerciales con primaria terminada
+Nivel,niv,Numérico,2,0,Ninguno
+Nivel,niv,Numérico,2,1,Preescolar
+Nivel,niv,Numérico,2,2,Primaria
+Nivel,niv,Numérico,2,3,Secundaria
+Nivel,niv,Numérico,2,8,Normal con primaria o secundaria terminada
+Nivel,niv,Numérico,2,7,Estudios técnicos o comerciales con preparatoria terminada
+Nivel,niv,Numérico,2,6,Estudios técnicos o comerciales con secundaria terminada
+Grado,gra,Numérico,1,"0, … ,8",GRADO
+Grado,gra,Numérico,1,9,No especificado
+Dominio,dominio,Numérico,1,2, Urbano
+Dominio,dominio,Numérico,1,0, Complemento Urbano
+Dominio,dominio,Numérico,1,1, Rural
+Control del hogar,hogar,Carácter,2,"01, …, 06",Número de hogar de la seleccionada
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,5, Mujer soltera que nunca ha tenido novio
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,4, Mujer soltera con novio o pareja o ex-novio o ex-pareja
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,3, Mujer viuda
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,2, Mujer separada o divorciada
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,1, Mujer casada o unida con pareja ausente temporal
+Tipo de cuestionario aplicado a la mujer elegida,t_instrum,Numérico,2,0, Mujer casada o unida con pareja residente
+Control de vivienda (UPM),upm,Carácter,7,"0100001, …, 3299999",Unidad Primaria de Muestreo
+Número de renglón de la mujer elegida,ren_m_ele,Carácter,2,"01, …, 30",Número de renglón de la mujer elegida
+Progresivo de la vivienda seleccionada,prog,Carácter,3,"001, …, 999",Progresivo de la vivienda
+Factor de expansión de la vivienda,fac_viv,Numérico,4,"1, …, 9999",Ponderador que se utiliza para estimar resultados de las preguntas que se refieren a las viviendas y la población en general
+Factor de expansión de las mujeres elegidas,fac_muj,Numérico,5,"1, …, 99999",Ponderador que se utiliza para estimar resultados de las preguntas que se refieren a las mujeres de 15 años y más
+Estrato,estrato,Numérico,1,"1, …, 4",Estrato
+Unidad primaria de muestreo,upm_dis,Carácter,5,"00001, …, 99999",UPM de diseño
+Estrato de diseño muestral,est_dis,Carácter,4,"0001, …, 9998",Estrato de diseño muestral
+Material predominante en pisos,p1_1,Numérico,1,1,Tierra
+Material predominante en pisos,p1_1,Numérico,1,2,Cemento o firme
+Material predominante en pisos,p1_1,Numérico,1,3,"Madera, mosaico u otro recubrimiento"
+Número de cuartos para dormir,p1_2,Numérico,2,"01, …, 30",Cuartos
+Total de cuartos,p1_2_a,Numérico,2,"01, …, 30",Cuartos
+Número de focos,p1_3,Numérico,2,"01, … , 97",Focos de la vivienda
+Número de focos,p1_3,Numérico,2,0,NINGUNO
+Número de focos,p1_3,Numérico,2,99,No especificado
+Número de focos,p1_3,Numérico,2,98,98 FOCOS O MÁS
+Bienes en la vivienda: aparato para oír radio,p1_4_1,Numérico,1,0,No
+Bienes en la vivienda: aparato para oír radio,p1_4_1,Numérico,1,1,Sí
+Bienes en la vivienda: televisión,p1_4_2,Numérico,1,1,Sí
+Bienes en la vivienda: televisión,p1_4_2,Numérico,1,0,No
+Bienes en la vivienda: computadora,p1_4_3,Numérico,1,1,Sí
+Bienes en la vivienda: computadora,p1_4_3,Numérico,1,0,No
+Bienes en la vivienda: línea telefónica fija,p1_4_4,Numérico,1,0,No
+Bienes en la vivienda: línea telefónica fija,p1_4_4,Numérico,1,1,Sí
+Bienes en la vivienda: teléfono celular,p1_4_5,Numérico,1,0,No
+Bienes en la vivienda: teléfono celular,p1_4_5,Numérico,1,1,Sí
+Bienes en la vivienda: refrigerador,p1_4_6,Numérico,1,0,No
+Bienes en la vivienda: refrigerador,p1_4_6,Numérico,1,1,Sí
+Bienes en la vivienda: lavadora,p1_4_7,Numérico,1,0,No
+Bienes en la vivienda: lavadora,p1_4_7,Numérico,1,1,Sí
+Bienes en la vivienda: auto o camioneta,p1_4_8,Numérico,1,0,No
+Bienes en la vivienda: auto o camioneta,p1_4_8,Numérico,1,1,Sí
+Bienes en la vivienda: servicio de internet,p1_4_9,Numérico,1,1,Sí
+Bienes en la vivienda: servicio de internet,p1_4_9,Numérico,1,0,No
+Agua potable,p1_5,Numérico,1,1,agua entubada dentro de la vivienda?
+Agua potable,p1_5,Numérico,1,2,"agua entubada fuera de la vivienda, pero dentro del terreno?"
+Agua potable,p1_5,Numérico,1,3,agua entubada de una llave pública (o hidrante)?
+Agua potable,p1_5,Numérico,1,4,agua entubada que acarrea de otra vivienda?
+Agua potable,p1_5,Numérico,1,5,agua de pipa?
+Agua potable,p1_5,Numérico,1,6,"agua de un pozo, río, arroyo, lago u otro?"
+Drenaje,p1_6,Numérico,1,1,la red pública?
+Drenaje,p1_6,Numérico,1,2,una fosa séptica?
+Drenaje,p1_6,Numérico,1,3,una tubería que va a dar a una barranca o grieta?
+Drenaje,p1_6,Numérico,1,4,"una tubería que va a dar a un río, lago o mar?"
+Drenaje,p1_6,Numérico,1,5,No tiene drenaje
+Residentes habituales,p1_7,Numérico,2,"01, …, 99",Personas
+Gasto compartido,p1_8,Numérico,1,1,Sí
+Gasto compartido,p1_8,Numérico,1,0,No
+Número de hogares en la vivienda,p1_9,Numérico,2,"02, …, 06",Hogares
+Número de hogares en la vivienda,p1_9,Numérico,2,1,blanco
+Gasto compartido. Renta de vivienda,p1_10_1,Numérico,1,0,No se declaró como opción afirmativa
+Gasto compartido. Renta de vivienda,p1_10_1,Numérico,1,1,Sí
+Gasto compartido. Renta de vivienda,p1_10_1,Numérico,1,2,blanco
+"Gasto compartido de servicios (luz, agua, teléfono, gas, etc.)",p1_10_2,Numérico,1,0,No se declaró como opción afirmativa
+"Gasto compartido de servicios (luz, agua, teléfono, gas, etc.)",p1_10_2,Numérico,1,1,Sí
+"Gasto compartido de servicios (luz, agua, teléfono, gas, etc.)",p1_10_2,Numérico,1,2,blanco
+Gasto compartido por otros servicios,p1_10_3,Numérico,1,0,No se declaró como opción afirmativa
+Gasto compartido por otros servicios,p1_10_3,Numérico,1,1,Sí
+Gasto compartido por otros servicios,p1_10_3,Numérico,1,2,blanco
+Gasto compartido: No hay,p1_10_4,Numérico,1,1,Sí
+Gasto compartido: No hay,p1_10_4,Numérico,1,0,No se declaró como opción afirmativa
+Gasto compartido: No hay,p1_10_4,Numérico,1,2,blanco
+Residencia en la vivienda de la madre,p2_5,Carácter,2,98,No sabe
+Residencia en la vivienda de la madre,p2_5,Carácter,2,97,falleció?
+Residencia en la vivienda de la madre,p2_5,Carácter,2,96,otra vivienda?
+Residencia en la vivienda de la madre,p2_5,Carácter,2,"01, … ,30",en esta vivienda? (Número del renglón donde aparece registrada la madre)
+Residencia en la vivienda del padre,p2_6,Carácter,2,"01, … ,30",en esta vivienda? (Número del renglón donde aparece registrado el padre)
+Residencia en la vivienda del padre,p2_6,Carácter,2,96,otra vivienda?
+Residencia en la vivienda del padre,p2_6,Carácter,2,97,falleció?
+Residencia en la vivienda del padre,p2_6,Carácter,2,98,No sabe
+Alfabetismo,p2_8,Numérico,1,9,blanco
+Alfabetismo,p2_8,Numérico,1,1,Sí
+Alfabetismo,p2_8,Numérico,1,0,No
+Alfabetismo,p2_8,Numérico,1,9,No especificado
+Asistencia escolar,p2_9,Numérico,1,9,No especificado
+Asistencia escolar,p2_9,Numérico,1,0,No
+Asistencia escolar,p2_9,Numérico,1,1,Sí
+Pertenencia indígena,p2_10,Numérico,1,1,Sí
+Pertenencia indígena,p2_10,Numérico,1,8,No sabe
+Pertenencia indígena,p2_10,Numérico,1,2,"Sí, en parte"
+Pertenencia indígena,p2_10,Numérico,1,9,No especificado
+Pertenencia indígena,p2_10,Numérico,1,3,No
+Lengua indígena,p2_11,Numérico,1,0,No
+Lengua indígena,p2_11,Numérico,1,9,No especificado
+Lengua indígena,p2_11,Numérico,1,1,Sí
+Habla español,p2_12,Numérico,1,1,Sí
+Habla español,p2_12,Numérico,1,0,No
+Habla español,p2_12,Numérico,1,9,blanco
+Condición de actividad,p2_13,Numérico,1,1,Sí
+Condición de actividad,p2_13,Numérico,1,0,No
+Condición de actividad,p2_13,Numérico,1,9,No especificado
+Verificación de condición de actividad,p2_14,Numérico,2,8,¿Es estudiante?
+Verificación de condición de actividad,p2_14,Numérico,2,1,hizo o vendió algún producto?
+Verificación de condición de actividad,p2_14,Numérico,2,2,ayudó en algún negocio? (familiar o de otra persona)
+Verificación de condición de actividad,p2_14,Numérico,2,3,"crió animales o cultivó algo? (en el terreno o en casa, para autoconsumo o venta)"
+Verificación de condición de actividad,p2_14,Numérico,2,4,"ofreció algún servicio por un pago? (cargó bolsas, lavó autos, cuidó niñas(os), etc.)"
+Verificación de condición de actividad,p2_14,Numérico,2,5,atendió su propio negocio?
+Verificación de condición de actividad,p2_14,Numérico,2,6,"tenía trabajo, pero no trabajó? (por licencia, incapacidad o vacaciones)"
+Verificación de condición de actividad,p2_14,Numérico,2,7,buscó trabajo?
+Verificación de condición de actividad,p2_14,Numérico,2,9,¿Es jubilada(o) o pensionada(o)?
+Verificación de condición de actividad,p2_14,Numérico,2,11,¿Tiene alguna limitación física o mental que le impide trabajar?
+Verificación de condición de actividad,p2_14,Numérico,2,12,¿No trabajó?
+Verificación de condición de actividad,p2_14,Numérico,2,13,blanco
+Verificación de condición de actividad,p2_14,Numérico,2,10,¿Se dedica a los quehaceres de su hogar?
+Posición en la ocupación,p2_15,Numérico,1,6,trabajador(a) sin pago?
+Posición en la ocupación,p2_15,Numérico,1,5,patrón(a) o empleador(a) (contrata trabajadores/as)?
+Posición en la ocupación,p2_15,Numérico,1,4,trabajador(a) por su cuenta (no contrata trabajadores/as)?
+Posición en la ocupación,p2_15,Numérico,1,3,jornalero(a) o peón?
+Posición en la ocupación,p2_15,Numérico,1,2,obrero(a)?
+Posición en la ocupación,p2_15,Numérico,1,1,empleado(a)?
+Posición en la ocupación,p2_15,Numérico,1,9,blanco
+Verificación de la situación conyugal,p3_1,Numérico,1,1,vive en unión libre?
+Verificación de la situación conyugal,p3_1,Numérico,1,4,es viuda?
+Verificación de la situación conyugal,p3_1,Numérico,1,5,está casada?
+Verificación de la situación conyugal,p3_1,Numérico,1,6,está soltera?
+Verificación de la situación conyugal,p3_1,Numérico,1,2,está separada?
+Verificación de la situación conyugal,p3_1,Numérico,1,3,está divorciada?
+Condición de cohabitación (casadas o unidas),p3_2,Numérico,1,1,Sí
+Condición de cohabitación (casadas o unidas),p3_2,Numérico,1,0,No
+Condición de cohabitación (casadas o unidas),p3_2,Numérico,1,2,blanco
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,2,Trabaja en otro país
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,1,Trabaja en Estados Unidos de América
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,3,Trabaja en otro lugar del país
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,4,Él tiene otra pareja
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,5,Él se fue porque están enojados o peleados
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,6,"Otras razones o situaciones (está en un hospital, está en reclusión o rehabilitación)"
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,7,Están separados definitivamente
+Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,9,blanco
+"Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,2,blanco
+"Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,0,No
+"Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,1,Sí
+"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,9,blanco
+"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,2,¿No vive con usted?
+"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,1,¿Vive aquí con usted?
+Tipo de relación actual (solteras),p3_6,Numérico,1,1,¿Tiene novio o pareja sin vivir juntos?
+Tipo de relación actual (solteras),p3_6,Numérico,1,2,¿Tiene novio o pareja y viven juntos?
+Tipo de relación actual (solteras),p3_6,Numérico,1,3,"¿No tiene novio o pareja, pero antes sí tuvo una relación de pareja o noviazgo?"
+Tipo de relación actual (solteras),p3_6,Numérico,1,4,¿Nunca ha tenido una relación de pareja o noviazgo?
+Tipo de relación actual (solteras),p3_6,Numérico,1,9,blanco
+Última relación (solteras),p3_7,Numérico,1,2,blanco
+Última relación (solteras),p3_7,Numérico,1,0,No
+Última relación (solteras),p3_7,Numérico,1,1,Sí
+Seguridad social: IMSS,p9_1_1,Numérico,1,1, Sí
+Seguridad social: IMSS,p9_1_1,Numérico,1,0, No se declaró como respuesta afirmativa
+Seguridad social: IMSS- Prospera,p9_1_2,Numérico,1,1, Sí
+Seguridad social: IMSS- Prospera,p9_1_2,Numérico,1,0, No se declaró como respuesta afirmativa
+Seguridad social: ISSSTE,p9_1_3,Numérico,1,0, No se declaró como respuesta afirmativa
+Seguridad social: ISSSTE,p9_1_3,Numérico,1,1, Sí
+Seguridad social: ISSSTE estatal,p9_1_4,Numérico,1,0, No se declaró como respuesta afirmativa
+Seguridad social: ISSSTE estatal,p9_1_4,Numérico,1,1, Sí
+"Servicios médicos: Pemex, Defensa o Marina",p9_1_5,Numérico,1,0, No se declaró como respuesta afirmativa
+"Servicios médicos: Pemex, Defensa o Marina",p9_1_5,Numérico,1,1, Sí
+Seguridad social: Seguro Popular,p9_1_6,Numérico,1,1, Sí
+Seguridad social: Seguro Popular,p9_1_6,Numérico,1,0, No se declaró como respuesta afirmativa
+Seguro de gastos médicos mayores,p9_1_7,Numérico,1,1, Sí
+Seguro de gastos médicos mayores,p9_1_7,Numérico,1,0, No se declaró como respuesta afirmativa
+Servicios médicos: otra institución pública estatal,p9_1_8,Numérico,1,1, Sí
+Servicios médicos: otra institución pública estatal,p9_1_8,Numérico,1,0, No se declaró como respuesta afirmativa
+Sin acceso a servicio médico,p9_1_9,Numérico,1,0, No se declaró como respuesta afirmativa
+Sin acceso a servicio médico,p9_1_9,Numérico,1,1, Sí
+No especificado,p9_1_10,Numérico,1,0,Si
+No especificado,p9_1_10,Numérico,1,1,No
+Número de embarazos entre 2011 y 2016,p9_3,Carácter,2,01 a 60 , Número de embarazos
+Hijos nacidos vivos entre 2011 y 2016,p9_4_1,Carácter,2,00 a 12 , Número de hijos e hijas que nacieron vivos
+Hijos nacidos vivos entre 2011 y 2016,p9_4_1,Carácter,2,99, No especificado
+Hijos nacidos muertos entre 2011 y 2016,p9_4_2,Carácter,2,99, No especificado
+Hijos nacidos muertos entre 2011 y 2016,p9_4_2,Carácter,2,00 a 12 , Número de hijos e hijas que nacieron muertos
+Abortos entre 2011 y 2016,p9_4_3,Carácter,2,00 a 60 , Número de abortos
+Abortos entre 2011 y 2016,p9_4_3,Carácter,2,99, No especificado
+Atención prenatal del último embarazo: centro de salud,p9_5_1,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: centro de salud,p9_5_1,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica del IMSS,p9_5_2,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica del IMSS,p9_5_2,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: clínica del ISSSTE,p9_5_3,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: clínica del ISSSTE,p9_5_3,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica del ISSSTE del estado,p9_5_4,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica del ISSSTE del estado,p9_5_4,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: hospital o clínica pública,p9_5_5,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: hospital o clínica pública,p9_5_5,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica o dispensario médico,p9_5_6,Numérico,1,1, Sí
+Atención prenatal del último embarazo: clínica o dispensario médico,p9_5_6,Numérico,1,0, No se declaró como respuesta afirmativa
+"Atención prenatal del último embarazo: hospital, clínica o médico particular",p9_5_7,Numérico,1,1, Sí
+"Atención prenatal del último embarazo: hospital, clínica o médico particular",p9_5_7,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: partera o curandera,p9_5_8,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: partera o curandera,p9_5_8,Numérico,1,1, Sí
+Atención prenatal del último embarazo: consultorio de farmacia,p9_5_9,Numérico,1,1, Sí
+Atención prenatal del último embarazo: consultorio de farmacia,p9_5_9,Numérico,1,0, No se declaró como respuesta afirmativa
+Atención prenatal del último embarazo: otro,p9_5_10,Numérico,1,1, Sí
+Atención prenatal del último embarazo: otro,p9_5_10,Numérico,1,0, No se declaró como respuesta afirmativa
+Sin atención prenatal en el último embarazo,p9_5_11,Numérico,1,1, Sí
+Sin atención prenatal en el último embarazo,p9_5_11,Numérico,1,0, No se declaró como respuesta afirmativa
+No especificado,p9_5_12,Numérico,1,0,Si
+No especificado,p9_5_12,Numérico,1,1,No
+Año del último parto,p9_6,Carácter,4,1972 a 2016, Año del último parto
+Año del último parto,p9_6,Carácter,4,0, Está embarazada por primera vez
+Año del último parto,p9_6,Carácter,4,8888, Fue aborto
+Año del último parto,p9_6,Carácter,4,9999, No especificado
+Lugar de atención del último parto,p9_7,Numérico,2,99, No especificado
+Lugar de atención del último parto,p9_7,Numérico,2,1, Centro de salud
+Lugar de atención del último parto,p9_7,Numérico,2,2, Hospital o Clínica del IMSS
+Lugar de atención del último parto,p9_7,Numérico,2,3, Hospital o Clínica del ISSSTE
+Lugar de atención del último parto,p9_7,Numérico,2,4, Hospital o Clínica del ISSSTE del estado
+Lugar de atención del último parto,p9_7,Numérico,2,5, Otro hospital o clínica pública del estado
+Lugar de atención del último parto,p9_7,Numérico,2,10, Otro
+Lugar de atención del último parto,p9_7,Numérico,2,7, Consultorio Médico particular
+Lugar de atención del último parto,p9_7,Numérico,2,6, Hospital o Clínica privado
+Lugar de atención del último parto,p9_7,Numérico,2,9," Nadie la atendió, dio a luz sola"
+Lugar de atención del último parto,p9_7,Numérico,2,8, En casa con partera o curandera(o)
+Último parto: cesárea,p9_8_11,Numérico,1,1, Sí
+Último parto: cesárea,p9_8_11,Numérico,1,0, No
+Último parto: cesárea,p9_8_11,Numérico,1,9, blanco
+Autorización para la cesárea,p9_8_13,Numérico,1,0, No
+Autorización para la cesárea,p9_8_13,Numérico,1,1, Sí
+Autorización para la cesárea,p9_8_13,Numérico,1,9, blanco
+Autorización de un tercero para la cesárea,p9_8_14,Numérico,1,1, Esposo o pareja
+Autorización de un tercero para la cesárea,p9_8_14,Numérico,1,2," Padre, madre o algún familiar"
+Autorización de un tercero para la cesárea,p9_8_14,Numérico,1,3, Otra persona
+Autorización de un tercero para la cesárea,p9_8_14,Numérico,1,4, Nadie
+Autorización de un tercero para la cesárea,p9_8_14,Numérico,1,9, blanco
+Clasificacion del tipo de violencia obstétrica,p9_8,Numérico,1,0,Ninguno
+Clasificacion del tipo de violencia obstétrica,p9_8,Numérico,1,1,Abuso y violencia
+Clasificacion del tipo de violencia obstétrica,p9_8,Numérico,1,2,Atencion no autorizada
+Clasificacion del tipo de violencia obstétrica,p9_8,Numérico,1,3,Ambos
