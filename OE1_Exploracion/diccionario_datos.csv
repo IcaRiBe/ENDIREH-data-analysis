@@ -20,8 +20,6 @@ Parentesco,paren,Numérico,1,8,No parientes
 Parentesco,paren,Numérico,1,9,Empleado(a) doméstico(a)
 Parentesco,paren,Numérico,1,1,Jefe(a)
 Parentesco,paren,Numérico,1,2,Esposo(a) o compañero(a)
-Sexo,sexo,Numérico,1,2,Mujer
-Sexo,sexo,Numérico,1,1,Hombre
 Edad,edad,Carácter,2,99,Edad no especificada
 Edad,edad,Carácter,2,98,Edad no especificada en personas de 15 años o más
 Edad,edad,Carácter,2,97,97 o más años
