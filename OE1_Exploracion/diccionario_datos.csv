@@ -127,11 +127,11 @@ Alfabetismo,p2_8,Numérico,1,0,No
 Asistencia escolar,p2_9,Numérico,1,1,No especificado
 Asistencia escolar,p2_9,Numérico,1,0,No
 Asistencia escolar,p2_9,Numérico,1,2,Sí
-Pertenencia indígena,p2_10,Numérico,1,1,Sí
-Pertenencia indígena,p2_10,Numérico,1,8,No sabe
-Pertenencia indígena,p2_10,Numérico,1,2,"Sí, en parte"
-Pertenencia indígena,p2_10,Numérico,1,9,No especificado
-Pertenencia indígena,p2_10,Numérico,1,3,No
+Pertenencia indígena,p2_10,Numérico,1,4,Sí
+Pertenencia indígena,p2_10,Numérico,1,1,No sabe
+Pertenencia indígena,p2_10,Numérico,1,3,"Sí, en parte"
+Pertenencia indígena,p2_10,Numérico,1,2,No especificado
+Pertenencia indígena,p2_10,Numérico,1,0,No
 Lengua indígena,p2_11,Numérico,1,0,No
 Lengua indígena,p2_11,Numérico,1,1,No especificado
 Lengua indígena,p2_11,Numérico,1,2,Sí
