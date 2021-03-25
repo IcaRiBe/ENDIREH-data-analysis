@@ -248,7 +248,7 @@ Año del último parto,p9_6,Carácter,4,1972 a 2016, Año del último parto
 Año del último parto,p9_6,Carácter,4,0, Está embarazada por primera vez
 Año del último parto,p9_6,Carácter,4,8888, Fue aborto
 Año del último parto,p9_6,Carácter,4,9999, No especificado
-Lugar de atención del último parto,p9_7,Numérico,2,99, No especificado
+Lugar de atención del último parto,p9_7,Numérico,2,0, No especificado
 Lugar de atención del último parto,p9_7,Numérico,2,1, Centro de salud
 Lugar de atención del último parto,p9_7,Numérico,2,2, Hospital o Clínica del IMSS
 Lugar de atención del último parto,p9_7,Numérico,2,3, Hospital o Clínica del ISSSTE
