@@ -181,8 +181,8 @@ Motivo de no cohabitación (casadas o unidas),p3_3,Numérico,1,9,No especificado
 "Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,1,No especificado
 "Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,0,No
 "Última relación de pareja (separadas, divorciadas o viudas)",p3_4,Numérico,1,2,Sí
-"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,9,No especificado
-"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,2,¿No vive con usted?
+"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,2,No especificado
+"Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,0,¿No vive con usted?
 "Tipo de relación actual (separadas, divorciadas o viudas)",p3_5,Numérico,1,1,¿Vive aquí con usted?
 Tipo de relación actual (solteras),p3_6,Numérico,1,1,¿Tiene novio o pareja sin vivir juntos?
 Tipo de relación actual (solteras),p3_6,Numérico,1,2,¿Tiene novio o pareja y viven juntos?
